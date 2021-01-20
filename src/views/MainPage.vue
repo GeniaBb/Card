@@ -1,14 +1,26 @@
 <template>
   <div class="main-page">
-    <h1>письки тараканьи</h1>
+    <search @search="onSearch"></search>
   </div>
 </template>
 
+<style lang="scss">
+.main-page {
+  padding: 0 15%;
+}
+</style>
 <script>
-// @ is an alias to /src
+import Search from '@/components/Search.vue'
 
 export default {
   name: 'MainPage',
-  components: {},
+  components: {
+    search: Search,
+  },
+  methods: {
+    onSearch(event) {
+      console.log(event)
+    },
+  },
 }
 </script>

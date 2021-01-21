@@ -10,6 +10,14 @@
 </template>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+$main-font-color: #443434;
+
+* {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 </style>
 
 <script>

@@ -17,6 +17,7 @@ $main-font-color: #443434;
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: $main-font-color;
 }
 </style>
 

@@ -1,15 +1,18 @@
 <template>
   <div class="cards-view">
     <cardDisplay :frontData="front" :backData="back"></cardDisplay>
+    <carousel></carousel>
   </div>
 </template>
 
 <script>
 import CardDisplay from '@/components/CardDisplay.vue'
+import Carousel from '@/components/Carousel.vue'
 export default {
   name: 'CardsView',
   components: {
     cardDisplay: CardDisplay,
+    carousel: Carousel,
   },
   data: () => ({
     front: {
